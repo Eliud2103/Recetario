@@ -1,0 +1,21 @@
+.card-img-top {
+    width: 500px;   /* Ancho de la imagen */
+    height: 400px;  /* Altura de la imagen */
+    object-fit: cover; /* Recorta la imagen sin distorsionar */
+  }
+  .btn  {
+    background-color: #007bff; /* Color de fondo inicial */
+    color: white; /* Color de texto */
+    border: none; /* Sin bordes */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave al hacer hover */
+  }
+  
+  .btn:hover {
+    background-color: burlywood; /* Color al hacer hover */
+  }
+  h1{
+    font-family: 'Roboto Slab', serif;
+  }

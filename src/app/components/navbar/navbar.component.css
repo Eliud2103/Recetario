@@ -1,0 +1,5 @@
+.navbar-brand:hover {
+    background-color: #ffc107; /* Un color más oscuro o brillante que el color de fondo */
+    color: white; /* Cambiar el color del texto */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}

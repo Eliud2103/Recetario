@@ -1,0 +1,37 @@
+<div *ngIf="ensalada" class="card-container">
+
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-4">
+            <div class="card-section">
+  
+              <img class="card-img-top" [src]="ensalada.img" alt="Imagen de {{ ensalada.nombre }}" />
+            </div>
+            <h1 class="card-title">{{ ensalada.nombre }}</h1>
+  
+          </div>
+          <div class="col-3">
+            <div class="card-section">
+              <h4 class="card-text">Ingredientes:</h4>
+              <ul>
+                <li *ngFor="let ingrediente of ensalada.ingredientes">{{ ingrediente }}</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="card-section">
+  
+              <h4 class="card-text">Preparación:</h4>
+              <ul>
+                <li *ngFor="let preparacion of ensalada.preparacion">{{ preparacion }}</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      <button type="button" class="btn " [routerLink]="['/postres']">
+        Volver
+      </button>
+    </div>
+  </div>
+  
+  

@@ -1,0 +1,11 @@
+.card-img-top {
+    width: 100%;   /* El ancho será del 100% de su contenedor */
+    height: 200px; /* Fija una altura de 200px */
+    object-fit: cover; /* Recorta la imagen para que se ajuste sin deformarse */
+  }
+  .card{
+    box-shadow:10px 5px 10px rgba(0.5, 0.5, 0.5, 0.5);
+  }
+  .card-hover:hover {
+    transform: scale(1.05); /* Aumenta el tamaño de la tarjeta un 5% */
+}
