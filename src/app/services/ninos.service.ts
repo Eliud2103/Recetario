@@ -56,7 +56,7 @@ preparacion:['1.- Preparar las fresas: Si usas fresas frescas, asegúrate de lav
     {
       id: 3,
       type: 'nino',
-  nombre: 'Bowl de yogurt con fruta  ',
+  nombre: 'Bowl de yogurt  ',
 
   img: 'https://www.hola.com/horizon/landscape/79862ba7d0f2-bowl-yogur-fruta-t.jpg',
   ingredientes: ['1 taza de yogurt natural o griego (puede ser sin azúcar o endulzado)',
@@ -76,7 +76,7 @@ preparacion:['1.- Preparar la base: Coloca el yogurt en un bowl, extendiéndolo 
       id: 4,
       type: 'nino',
 
-  nombre: 'Tiras de pollo con dip honey',
+  nombre: 'Tiras de pollo con dip ',
   img: 'https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/ccea52a38455ec46500838a28a2523d7.jpg?itok=f4RPuXKM',
   ingredientes: ['1.- 500 g de pechuga de pollo (cortada en tiras)',
 '1 taza de harina de trigo',

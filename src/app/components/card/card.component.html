@@ -1,8 +1,8 @@
-<div class="card mb-4 card-hover ">
-    <img class="card-img-top d-block mx-auto" [src]="post.img" style="width: 300px;" alt="Title" />
+<div class="card mb-4 card-hover" style="max-width: 300px; margin: auto;">
+    <img class="card-img-top img-fluid" [src]="post.img" alt="Title" />
     <div class="card-body">
-        <h4 class="card-title d-flex justify-content-center">{{post.nombre}}</h4>
-        <div class="card-body d-flex justify-content-center">
+        <h4 class="card-title text-center">{{ post.nombre }}</h4>
+        <div class="d-flex justify-content-center">
             <button
                 (click)="goToDetail()"
                 type="button"
@@ -14,3 +14,5 @@
         </div>
     </div>
 </div>
+
+<!--*ngIf="isLoggedIn"-->

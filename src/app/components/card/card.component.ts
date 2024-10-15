@@ -2,15 +2,22 @@
 
   import { Router } from '@angular/router';
   import { postre } from '../../app.interfaces';
+import { CommonModule } from '@angular/common';
 
   @Component({
     selector: 'app-card',
     standalone: true,
-    imports: [],
+    imports: [CommonModule],
     templateUrl: './card.component.html',
     styleUrl: './card.component.css'
   })
   export class CardComponent {
+    isLoggedIn = false;
+
+    // Simula un login cuando se llama
+    login() {
+      this.isLoggedIn = true;
+    }
     @Input()post!:postre;
   private _router = inject(Router)
 

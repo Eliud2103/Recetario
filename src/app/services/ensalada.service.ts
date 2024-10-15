@@ -63,7 +63,7 @@ export class EnsaladaService {
     {
       id: 3,
       type: 'ensalada',
-  nombre: 'Ensalada-pollo con cacahuates',
+  nombre: 'Ensalada-pollo ',
   
   img: 'https://www.recetasnestle.com.mx/sites/default/files/srh_recipes/4c208130fd2eb732e5b67f5020167229.jpg',
   ingredientes: ['1.- 2 pechugas de pollo cocidas y desmenuzadas',
@@ -94,7 +94,7 @@ export class EnsaladaService {
       id: 4,
       type: 'ensalada',
   
-  nombre: 'Ensalada-quesos-finas-hierbas',
+  nombre: 'Ensalada-quesos',
   img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo61fWAo92zD5rrxNMiLUVF2_0Rgc9BXSjCw&s',
   ingredientes: ['200 g de queso de cabra o queso feta',
 '4 tazas de mezcla de lechugas (puedes usar lechuga romana, espinacas, rúcula, etc.)',

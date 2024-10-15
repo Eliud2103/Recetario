@@ -1,23 +1,32 @@
-<nav
-    class="navbar navbar-expand-sm navbar-light bg-warning"
->
+<nav class="navbar navbar-expand-sm navbar-light bg-warning">
     <div class="container">
-        <a class="navbar-brand" routerLinkActive="active" routerLink="/inicio">Inicio</a>
-        <a class="navbar-brand" routerLinkActive="active" routerLink="/cocteles">Cocteles</a>
-        <a class="navbar-brand" routerLinkActive="active" routerLink="/postres">Postres</a>
-        <a class="navbar-brand" routerLinkActive="active" routerLink="/ninos">Niños</a>
-        <a class="navbar-brand" routerLinkActive="active" routerLink="/desayuno">Desayunos</a>
-        <a class="navbar-brand" routerLinkActive="active" routerLink="/ensaladas">Ensaladas</a>
-        <a class="navbar-brand" routerLinkActive="active" routerLink="/pastas">Pastas</a>
-       
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                
-               
-                
-            </ul>
-           
-            
-        </div>
+      <a class="navbar-brand" routerLink="/inicio">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="/cocteles">Cocteles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="/postres">Postres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="/ninos">Niños</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="/desayuno">Desayunos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="/ensaladas">Ensaladas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="/pastas">Pastas</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</nav>
+  </nav>
+  

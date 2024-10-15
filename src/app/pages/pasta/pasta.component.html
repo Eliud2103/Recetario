@@ -1,4 +1,4 @@
-<h1 class="text-center mt-3">PASTAS</h1>
+<h1 class="text-center mt-3" *ngIf="isLoggedIn">PASTAS</h1>
  <div class="container-fluid mt-3">
     <div class="row">
         @for (postt of pasta; track $index) {

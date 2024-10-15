@@ -76,7 +76,7 @@ preparacion:['1.- Preparar la base: Coloca el yogurt en un bowl, extendiéndolo 
     id: 4,
     type: 'desayuno',
 
-nombre: 'Hot cakes de avena y manzana',
+nombre: 'Hot cakes de avena',
 img: 'https://i.blogs.es/0cf781/hot-cakes-de-avena-manzana-canela-otono-2-/1366_2000.jpeg',
 ingredientes: ['1.- 500 g de pechuga de pollo (cortada en tiras)',
 '1 taza de harina de trigo',
@@ -104,7 +104,7 @@ preparacion: ['1.- Preparar el pollo: Corta las pechugas de pollo en tiras del t
     id:5,
     type: 'desayuno',
 
-nombre: 'Sandwich de carnes frias y queso',
+nombre: 'Sandwich de carnes ',
 img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8B6CILQYV9caegX0qBV94l_Xv1Rd-PPkSog&s',
 ingredientes: ['1.- 1 ½ tazas de galletas María trituradas',
 '2.- 1/4 taza de mantequilla derretida',
