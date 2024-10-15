@@ -1,8 +1,4 @@
-.card-img-top {
-    width: 500px;   /* Ancho de la imagen */
-    height: 400px;  /* Altura de la imagen */
-    object-fit: cover; /* Recorta la imagen sin distorsionar */
-  }
+
   .btn  {
     background-color: #007bff; /* Color de fondo inicial */
     color: white; /* Color de texto */

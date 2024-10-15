@@ -12,8 +12,14 @@ import { EnsaladasComponent } from './pages/ensaladas/ensaladas.component';
 import { EnsaladasverComponent } from './pages/ensaladasver/ensaladasver.component';
 import { PastaComponent } from './pages/pasta/pasta.component';
 import { VerpastaComponent } from './pages/verpasta/verpasta.component';
+import { InicioComponent } from './components/inicio/inicio.component';
 
 export const routes: Routes = [
+    {
+        path: '', // Ruta vacía como la ruta por defecto
+        component: InicioComponent
+    },
+    
     {
         path: 'home',
         component: HomeComponent
