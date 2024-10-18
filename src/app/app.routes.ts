@@ -12,67 +12,68 @@ import { EnsaladasComponent } from './pages/ensaladas/ensaladas.component';
 import { EnsaladasverComponent } from './pages/ensaladasver/ensaladasver.component';
 import { PastaComponent } from './pages/pasta/pasta.component';
 import { VerpastaComponent } from './pages/verpasta/verpasta.component';
-import { InicioComponent } from './components/inicio/inicio.component';
+import { LoginComponent } from './components/login/login.component';
 
 export const routes: Routes = [
-    {
-        path: '', // Ruta vacía como la ruta por defecto
-        component: InicioComponent
-    },
-    
+   // Redirecciona a login por defecto
+   
     {
         path: 'home',
-        component: HomeComponent
+        component: HomeComponent,
+    },
+    {
+        path: 'login',
+        component: LoginComponent
     },
     {
         path: 'postres',
-        component: PostresComponent
+        component: PostresComponent,
     },
     {
         path: 'cocteles',
-        component: CoctelesComponent
+        component: CoctelesComponent,
     },
   
     {
        path:'ninos',
-      component: NinosComponent
+      component: NinosComponent,
     },
     {
        path:'desayuno',
-      component: DesayunoComponent
+      component: DesayunoComponent,
     },
     {
        path:'pastas',
-      component: PastaComponent
+      component: PastaComponent,
     },
     {
        path:'ensaladas',
-      component: EnsaladasComponent
+      component: EnsaladasComponent,
     },
     {
 path: 'verpasta/:pastaId',
-component: VerpastaComponent
+component: VerpastaComponent,
     },
     {
 path: 'verdesayuno/:desayunoId',
-component: VerdesayunoComponent
+component: VerdesayunoComponent,
     },
     {
 path: 'ensaladasver/:ensaladaId',
-component: EnsaladasverComponent
+component: EnsaladasverComponent,
     },
     {
 path: 'vernino/:ninoId',
-component: VerninosComponent
+component: VerninosComponent,
     },
     {
         path: 'verpostre/:postreId',
-        component: VerpostreComponent
+        component: VerpostreComponent,
     
     },
     {
         path: 'vercoctel/:coctelId',
-        component: VercoctelesComponent
+        component: VercoctelesComponent,
     
     },
     {
