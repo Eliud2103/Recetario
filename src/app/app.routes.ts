@@ -13,6 +13,7 @@ import { EnsaladasverComponent } from './pages/ensaladasver/ensaladasver.compone
 import { PastaComponent } from './pages/pasta/pasta.component';
 import { VerpastaComponent } from './pages/verpasta/verpasta.component';
 import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 export const routes: Routes = [
    // Redirecciona a login por defecto
@@ -20,6 +21,10 @@ export const routes: Routes = [
     {
         path: 'home',
         component: HomeComponent,
+    },
+    {
+        path: 'register',
+        component: RegisterComponent,
     },
     {
         path: 'login',

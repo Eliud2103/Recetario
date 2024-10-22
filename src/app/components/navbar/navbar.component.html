@@ -28,6 +28,13 @@
           <li class="nav-item">
             <a class="nav-link" routerLinkActive="active" routerLink="/login">login</a>
           </li>
+          <li class="nav-item" *ngIf="!isLoggedIn">
+            <button class="btn btn-primary" (click)="login()">Login</button>
+          </li>
+          <li class="nav-item" *ngIf="isLoggedIn">
+            <button class="btn btn-danger" (click)="logout()">Cerrar sesión</button>
+          </li>
+          
         </ul>
       </div>
     </div>

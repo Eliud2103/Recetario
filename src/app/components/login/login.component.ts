@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'; // Importar funciones de Firebase Auth
-import { Router } from '@angular/router';
+import { Router, RouterLink, RouterLinkActive } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [CommonModule], // No necesitas FormsModule ya que no usas ngModel
+  imports: [CommonModule,RouterLink,RouterLinkActive], // No necesitas FormsModule ya que no usas ngModel
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
